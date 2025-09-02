@@ -5,10 +5,38 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <link rel="stylesheet" href="CSS/style.css">
+  <link rel="stylesheet" href="CSS/styleFont.css">
+  <link rel="stylesheet" href="CSS/styleDesktop.css" media="(min-width: 1201px)">
+  <link rel="stylesheet" href="CSS/styleTablet.css" media="(min-width: 641px) and (max-width: 1200px)">
+  <link rel="stylesheet" href="css/styleMobile.css" media="(max-width: 640px)">
 </head>
 
 <body>
+
+  <div class="popup visually-hidden">
+    <div class="popup-content">
+      <img src="/SVG/form-x.svg" alt="" class="popup-close">
+      <h2 class="section-title section-title-trends">ваш фидбэк</h2>
+      <form class="popup-form" action="">
+        <div class="form-row">
+          <span class="form-title">Как часто вы заходите на сайт?</span>
+          <select name="" id="" class="form-select">
+            <option value="">Почти каждый день</option>
+          </select>
+        </div>
+        <div class="form-row">
+          <span class="form-title">Вы подписаны на e-mail рассылку?</span>
+          <input type="radio" name="e-mail" id="radio1" class="form-radio visually-hidden" checked><label for="radio1" class="radio-label">Да</label><input type="radio" name="e-mail" id="radio2" class="form-radio visually-hidden"> <label for="radio2" class="radio-label">Нет</label>
+        </div>
+        <div class="form-row">
+          <span class="form-title">Расскажите, какой контент вы хотели бы видеть на нашем сайте?</span>
+          <textarea class="form-field" placeholder="Может больше рецептов?"></textarea>
+        </div>
+      </form>
+      <div class="popup-form"></div>
+    </div>
+  </div>
+
   <header class="cover">
 
     <div class="container">
@@ -33,7 +61,7 @@
     <h3 class="section-title section-title-trends">Сейчас в тренде</h3>
     <div class="trends-shell">
       <article class="trend">
-<img src="IMG/trend1.jpg" alt="" class="trend-img">
+        <img src="IMG/trend1.jpg" alt="" class="trend-img">
         <div class="trend-content">
           <header class="trend-header">
             <ul class="tags-entry">
@@ -45,18 +73,19 @@
         </div>
       </article>
       <article class="trend">
-<img src="IMG/trend2.jpg" alt="" class="trend-img">
+        <img src="IMG/trend2.jpg" alt="" class="trend-img">
         <div class="trend-content">
           <header class="trend-header">
             <ul class="tags-entry">
               <li class="tag-entry-item"><a href="#0" class="tag-entry-link">Food</a></li>
             </ul>
-            <h2 class="trend-title"><a href="" class="title-link">сыры на красивых картинках из интернета: какие они на вкус?</a></h2>
+            <h2 class="trend-title"><a href="" class="title-link">сыры на красивых картинках из интернета: какие они на
+                вкус?</a></h2>
           </header>
         </div>
       </article>
       <article class="trend">
-<img src="IMG/trend3.jpg" alt="" class="trend-img">
+        <img src="IMG/trend3.jpg" alt="" class="trend-img">
         <div class="trend-content">
           <header class="trend-header">
             <ul class="tags-entry">
@@ -312,7 +341,8 @@
           <img src="IMG/shop-item-desk1.jpg" alt="" class="price-img">
           <div class="price-content">
             <h3 class="price-title">Подушки на диван</h3>
-            <p class="price-text">Набор из двух подушек с модными принтами. Видео о создании <a href="#0" class="price-text-link">здесь</a></p>
+            <p class="price-text">Набор из двух подушек с модными принтами. Видео о создании <a href="#0"
+                class="price-text-link">здесь</a></p>
             <footer class="price-footer">
               <div class="price-costs">
                 <p class="price-cost-old">1000 Р</p>
@@ -326,7 +356,8 @@
           <img src="IMG/shop-item-desk2.jpg" alt="" class="price-img">
           <div class="price-content">
             <h3 class="price-title">Кукла «Зайчик»</h3>
-            <p class="price-text">Интерьерная рукодельная кукла «Зайчик», созданию которой посвящена <a href="#0" class="price-text-link">весенняя серия постов</a> в блоге и несколько подкастов.</p>
+            <p class="price-text">Интерьерная рукодельная кукла «Зайчик», созданию которой посвящена <a href="#0"
+                class="price-text-link">весенняя серия постов</a> в блоге и несколько подкастов.</p>
             <footer class="price-footer">
               <div class="price-costs">
                 <p class="price-cost-old"></p>
@@ -340,7 +371,8 @@
           <img src="IMG/shop-item-desk3.jpg" alt="" class="price-img">
           <div class="price-content">
             <h3 class="price-title">Шестиугольная рамка</h3>
-            <p class="price-text">Необычная рамка для украшения дома из видео <a href="#0" class="price-text-link">«Как сделать рамку из подручных средств за 30 минут»</a> </p>
+            <p class="price-text">Необычная рамка для украшения дома из видео <a href="#0" class="price-text-link">«Как
+                сделать рамку из подручных средств за 30 минут»</a> </p>
             <footer class="price-footer">
               <div class="price-costs">
                 <p class="price-cost-old">500 Р</p>
